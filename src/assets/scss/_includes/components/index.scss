@@ -1,0 +1,45 @@
+// @import "../../../templates/_includes/components/header/header";
+// @import "../../../templates/_includes/components/c-entry/c-entry";
+// @import "../../../templates/_includes/components/c-select/c-select";
+// @import "../../../templates/_includes/components/c-password-recovery/c-password-recovery";
+// @import "../../../templates/_includes/components/c-modal-select-role/c-modal-select-role";
+// @import "../../../templates/_includes/components/c-modal-welcome/c-modal-welcome";
+// @import "../../../templates/_includes/components/c-ad/c-ad";
+// @import "../../../templates/_includes/components/c-cabinet/c-cabinet";
+// @import "../../../templates/_includes/components/c-menu/c-menu";
+// @import "../../../templates/_includes/components/c-my-page/c-my-page";
+// @import "../../../templates/_includes/components/c-modal-file-load/c-modal-file-load";
+// @import "../../../templates/_includes/components/c-modal-file-load-fail/c-modal-file-load-fail";
+// @import "../../../templates/_includes/components/c-modal-photo-edit/c-modal-photo-edit";
+
+@import './header.scss';
+@import './menu.scss';
+@import './multiselect.scss';
+@import './my-page.scss';
+@import './cabinet.scss';
+@import './forgot.scss';
+@import './entry.scss';
+@import './select.scss';
+@import './autocomlete.scss';
+@import './settings.scss';
+@import './communities.scss';
+@import './structure.scss';
+@import './institution.scss';
+@import './user-item.scss';
+@import './workplace.scss';
+
+@import './c-edit.scss';
+@import './c-empty-block.scss';
+@import './c-event-item.scss';
+@import './c-modal-child-info';
+@import './c-modal-child-delete';
+@import './c-modal-create-community.scss';
+@import './c-modal-file-load.scss';
+@import './c-modal-file-load-fail.scss';
+@import './c-modal-inst-remove.scss';
+@import './c-modal-change-pass.scss';
+@import './c-modal-photo-edit.scss';
+@import './c-modal-select-role.scss';
+@import './c-modal-send-invite';
+@import './c-modal-welcome.scss';
+

@@ -1,0 +1,277 @@
+.c-institutions{
+    &-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: #EFF2F5;
+        padding: 2rem;
+        position: relative; 
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+        &__img {
+            height: 6rem;
+            width: 6rem;
+            overflow: hidden;
+            border-radius: 50%;
+            background-image: url(./../../../images/tmp_file/institutions.png);
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+        }
+        &__info {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            margin-left: 1rem;
+        }
+        &__title {
+            font-weight: bold;
+            color: #3E4B5D;
+            margin-bottom: 4px;
+        }
+        &__subtitle {
+            color: #787C82;
+            margin-right: 3px;
+        }
+        &__date {
+            color: #787C82;
+            line-height: normal;
+        }
+    }
+    &-page{
+        &__wrapper {
+            margin-top: 2rem;
+        }
+        &-user {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-color: #EFF2F5;
+            padding: 2rem 2rem 2rem 1.5rem;
+            position: relative;
+            margin-bottom: 2rem;
+            @include media-breakpoint-down(md){
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-align: start;
+                -ms-flex-align: start;
+                align-items: flex-start;
+            }
+            &__change-img{
+                height: 8rem;
+                width: 8rem;
+                border-radius: 50%;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-negative: 0;
+                flex-shrink: 0;
+                position: relative;
+                overflow: hidden;
+                @include media-breakpoint-down(sm){
+                    height: 6rem;
+                    width: 6rem;
+                }
+                & img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            &__empty-img{
+                height: 8rem;
+                width: 8rem;
+                background-image: url(./../../../images/tmp_file/institut.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                @include media-breakpoint-down(sm){
+                    height: 6rem;
+                    width: 6rem;
+                }
+            }
+            &__desc {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                margin-left: 1.5rem;
+                @include media-breakpoint-down(sm){
+                    margin-left: 0;
+                    margin-top: 1.5rem;
+                }
+            }
+            &__name {
+                font-size: 1.6rem;
+                font-weight: bold;
+            }
+            &__section {
+                color: #787C82;                
+            }
+            & .c-edit__wrapper{
+                @include media-breakpoint-down(sm){
+                    position: absolute;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    right: 2rem;
+                }
+            }
+        }
+        &__title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 1.5rem;
+        }
+        &__nav {
+            margin-top: 3rem;
+        }
+        &-lead {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            background-color: #EFF2F5;
+            padding: 2rem;
+            position: relative;
+            margin-bottom: 1rem;
+            @include media-breakpoint-down(sm){
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-align: start;
+                -ms-flex-align: start;
+                align-items: flex-start;
+            }
+            &__change-img {
+                height: 6rem;
+                width: 6rem;
+                border-radius: 50%;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-negative: 0;
+                flex-shrink: 0;
+                position: relative;
+                overflow: hidden;
+                @include media-breakpoint-down(sm){
+                    height: 5rem;
+                    width: 5rem;
+                }
+                & img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            &__desc {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                margin-left: 1.5rem;
+                @include media-breakpoint-down(sm){
+                    margin-left: 0;
+                    margin-top: 1.5rem;
+                }
+            }
+            &__name {
+                font-size: 1.4rem;
+                font-weight: bold;
+            }
+            &__section {
+                color: #787C82;
+                font-size: 1.4rem;
+                font-weight: 400;                
+            }
+            & .c-edit__wrapper{
+                @include media-breakpoint-down(sm){
+                    position: absolute;
+                    top: 50%;
+                    -webkit-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    right: 2rem;
+                }
+            }
+        }
+        &-info {
+            background-color: #EFF2F5;
+            padding: 2rem;
+            &__list {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+            }
+            &__item {
+                margin-bottom: .8rem;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                &:first-child {
+                    margin-bottom: 1.7rem;
+                }
+            }
+            &__title {
+                display: inline-block;
+                width: 8rem;
+                margin-right: 2rem;
+                color: #787C82;
+                -ms-flex-negative: 0;
+                flex-shrink: 0;
+            }
+            &__desc {
+                line-height: 1.9rem;
+            }
+        }
+        &__modals {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: end;
+            -ms-flex-pack: end;
+            justify-content: flex-end;
+            &  .e-btn--plus {
+                max-width: 100%;
+                padding: 0.8rem 1.5rem 0.8rem 3.2rem;
+                margin-right: 0;
+            }
+        }
+        &__lists {
+            margin-top: 1rem;
+        }
+    }
+}

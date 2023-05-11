@@ -1,0 +1,27 @@
+.e-btn--plus {
+    border: 1px solid #3E4B5D;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #3E4B5D;
+    padding: 0.8rem 3.2rem;
+    position: relative;
+    max-width: 15rem;
+    min-width: auto;
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-right: 1rem; 
+    &:hover {
+      border: 1px solid black;
+      color: black; 
+        &:after {
+        color: black; }
+    }
+    &:after {
+      content: '+';
+      line-height: 1.9rem;
+      color: #3E4B5D;
+      font-size: 2rem;
+      left: 1rem;
+      position: absolute; }
+}    

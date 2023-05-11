@@ -1,0 +1,41 @@
+.c-modal-photo-edit {
+    &::after {
+        content: "";
+        position: fixed;
+        left: 0;
+        top: 0;
+        opacity: 0.8;
+        background: #3e4b5d;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    &__wrapper {
+        padding: 2.65rem 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .icon-photo {
+            font-size: 2.5rem;
+        }
+        .modal__subtitle {
+            max-width: 34rem;
+        }
+    }
+    &__action {
+        margin: 2rem 2rem 0 2rem;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-img {
+            margin-bottom: 3rem;
+            max-height: 35rem;
+        }
+    }
+}
+
+.ReactCrop__image{
+    max-height: 35rem !important;
+}

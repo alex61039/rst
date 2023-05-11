@@ -1,0 +1,39 @@
+.c-modal-child-info{
+    &::after {
+        content: "";
+        position: fixed;
+        left: 0;
+        top: 0;
+        opacity: 0.8;
+        background: #3e4b5d;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    &__wrapper {
+        padding: 4.5rem 15rem 9rem; 
+        @include media-breakpoint-down(md){
+            padding: 4rem;
+        }
+        @include media-breakpoint-down(sm){
+            padding: 2rem;
+        }
+    }
+    &__form{
+        margin-top: 4rem;
+    }
+    &__form .e-btn--md{
+        margin-top: 2rem;
+        @include media-breakpoint-down(md) {
+            width: 100%;
+            max-width: 100%;
+            min-width: auto;
+        }
+    }
+    &__form .c-multiselect{
+        margin-bottom: 2rem;
+    }
+    &__form .c-select, .c-modal-child-info__form .c-multiselect {
+        min-width: auto;
+    }
+}

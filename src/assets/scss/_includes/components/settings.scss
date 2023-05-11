@@ -1,0 +1,156 @@
+.c-settings{
+    &__wrapper {
+        padding-top: 1.4rem; 
+    }
+    &__head {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; 
+    }
+    &__action {
+        font-weight: bold;
+        color: #B0BAC4;
+    }
+    &-form {
+        margin-top: 1.5rem;
+        padding: 2.4rem 2rem;
+        background-color: #EFF2F5;
+    }
+    &-form__wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        @include media-breakpoint-down(sm){
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+    }    
+    &-form__column {
+        width: 50%;
+        @include media-breakpoint-down(sm){
+            width: 100%;
+        }
+        &:not(:last-child){
+            margin-right: 2rem;       
+            @include media-breakpoint-down(sm){
+                margin-right: 0;
+            }
+        }
+    }
+    &-form .e-input, .c-settings-form .c-select__trigger .autocomplete-wrapper input {
+        border: 1px solid #B0BAC4;
+        background-color: transparent;
+        min-width: auto; 
+    }
+    &-form .autocomplete-wrapper input {
+        border: 1px solid #B0BAC4;
+        background-color: transparent;
+        min-width: auto; 
+    }
+    &-form .css-1ie596e-Control{
+        border: 1px solid #B0BAC4;
+        background-color: transparent;
+        min-width: auto; 
+    }
+    &-form .c-select {
+        width: 100%;
+        min-width: auto; 
+    }
+    &-form .c-select__options, .c-settings-form .e-input-autocomplete__items {
+        background-color: #EFF2F5;
+        border: 1px solid #B0BAC4;
+        border-top: 0; 
+    }
+    &-form .c-select__option, .c-settings-form .e-input-autocomplete__items div {
+        border-bottom: 1px solid #B0BAC4;
+    }
+    &-form .e-input-autocomplete__items div {
+        background-color: #EFF2F5;
+    }
+    &-form__btn-wrapper {
+        margin-top: 9rem;
+        @include media-breakpoint-down(sm){
+            margin-top: 3rem;
+        }
+    }
+    &-form__btn{
+        @include media-breakpoint-down(sm){
+            width: 100%;
+        }
+    }
+    &-form--roles .e-role {
+        border: 1px solid #B0BAC4;
+        margin-bottom: 0.5rem;
+        min-width: auto;
+    }
+    &-form--roles .e-tooltip {
+        margin-bottom: 2rem;
+    }
+    &-form--roles .c-settings-form__btn-wrapper {
+        margin-top: 1rem;
+    }
+    &-children__modals {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+    &-children__modals .e-btn--plus {
+        max-width: 100%;
+        min-width: 17.6rem;
+        margin-right: 0;
+        padding: 0.8rem 2rem 0.8rem 2.4rem;
+    }
+    &-children__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    &-children__list .icon-smile-bad {
+        fill: transparent;
+        stroke-width: 1;
+    }
+    &-children-item {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 3rem 2rem;
+        background-color: #EFF2F5;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+    &-children-item__info {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    &-children-item .c-edit__wrapper {
+        position: initial;
+    }
+    &-children-item__id {
+        color: #787C82;
+        margin-top: 0.5rem;
+    }
+}

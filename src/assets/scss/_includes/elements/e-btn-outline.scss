@@ -1,0 +1,17 @@
+.e-btn--outline {
+    border: 1px solid #3E4B5D;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #3E4B5D;
+    padding: 0.8rem;
+    position: relative;
+    font-weight: bold;
+    min-width: auto;
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    &:hover {
+      border: 1px solid black;
+      color: black;
+    }
+}    

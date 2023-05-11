@@ -1,0 +1,37 @@
+.e-btn {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 1.5rem;
+	min-width: 26rem;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+	border: none;
+	&--filled {
+		background-color: $oxford-blue;
+		color: $white;
+		&:hover , &:focus , &:active {
+				background-color: $lynch;
+				outline: inherit;
+		}
+	}
+	&--md {
+		max-height: 5rem;
+	}
+	&--clear {
+		color: $oxford-blue;
+	}
+	&--mt5 {
+		margin-top: 5rem;
+	}
+	&--red {
+    	background-color: #F10F2A;
+    	color: white;
+    	&:hover, .e-btn--red:focus, .e-btn--red:active {
+    	  	background-color: #F10F2A;
+			outline: inherit;
+		}
+	}
+}

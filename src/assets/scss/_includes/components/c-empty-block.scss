@@ -1,0 +1,44 @@
+.c-empty-block{
+    background-color: #EFF2F5;
+    padding: 3.3rem 3.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    &.mt20{
+        margin-top: 2rem;
+    }
+    &__ico{
+        margin-bottom: 1.2rem;
+    }
+    &__ico .icon {
+      font-size: 1.5rem;
+    }
+    &__ico .icon-lock {
+        stroke-width: 1;
+    }
+    &__desc {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    &__text {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        color: #15171A;
+        text-align: center;
+    }
+}
